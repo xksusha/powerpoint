@@ -2,9 +2,9 @@ require 'zip/filesystem'
 require 'fileutils'
 require 'tmpdir'
 
-module Powerpoint
+module EkiPowerpoint
   class Presentation
-    include Powerpoint::Util
+    include EkiPowerpoint::Util
 
     attr_reader :slides
 
@@ -13,8 +13,8 @@ module Powerpoint
     end
 
     def add_intro(title, subtitile = nil)
-      existing_intro_slide = @slides.select {|s| s.class == Powerpoint::Slide::Intro}[0]
-      slide = Powerpoint::Slide::Intro.new(presentation: self, title: title, subtitile: subtitile)
+      existing_intro_slide = @slides.select {|s| s.class == EkiPowerpoint::Slide::Intro}[0]
+      slide = EkiPowerpoint::Slide::Intro.new(presentation: self, title: title, subtitile: subtitile)
       if existing_intro_slide
         @slides[@slides.index(existing_intro_slide)] = slide 
       else
@@ -23,20 +23,24 @@ module Powerpoint
     end
 
     def add_textual_slide(title, content = [])
-      @slides << Powerpoint::Slide::Textual.new(presentation: self, title: title, content: content)
+      @slides << EkiPowerpoint::Slide::Textual.new(presentation: self, title: title, content: content)
     end
 
     def add_pictorial_slide(title, image_path, coords = {})
-      @slides << Powerpoint::Slide::Pictorial.new(presentation: self, title: title, image_path: image_path, coords: coords)
+      @slides << EkiPowerpoint::Slide::Pictorial.new(presentation: self, title: title, image_path: image_path, coords: coords)
     end
 
     def add_text_picture_slide(title, image_path, content = [])
-      @slides << Powerpoint::Slide::TextPicSplit.new(presentation: self, title: title, image_path: image_path, content: content)
+      @slides << EkiPowerpoint::Slide::TextPicSplit.new(presentation: self, title: title, image_path: image_path, content: content)
     end
 
     def add_picture_description_slide(title, image_path, content = [])
-      @slides << Powerpoint::Slide::DescriptionPic.new(presentation: self, title: title, image_path: image_path, content: content)
+      @slides << EkiPowerpoint::Slide::DescriptionPic.new(presentation: self, title: title, image_path: image_path, content: content)
     end
+
+    def add_overview_slide(title, image_path, content = {})
+      @slides << EkiPowerpoint::Slide::OverviewPic.new(presentation: self, title: title, image_path: image_path, content: content)
+    end    
 
     def save(path)
       Dir.mktmpdir do |dir|
@@ -63,7 +67,7 @@ module Powerpoint
 
         # Create .pptx file
         File.delete(path) if File.exist?(path)
-        Powerpoint.compress_pptx(extract_path, path)
+        EkiPowerpoint.compress_pptx(extract_path, path)
       end
 
       path

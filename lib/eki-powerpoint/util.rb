@@ -1,4 +1,4 @@
-module Powerpoint
+module EkiPowerpoint
   module Util
 
     def pixle_to_pt(px)
@@ -14,7 +14,7 @@ module Powerpoint
     end
 
     def read_template(filename)
-      File.read("#{Powerpoint::VIEW_PATH}/#{filename}")
+      File.read("#{EkiPowerpoint::VIEW_PATH}/#{filename}")
     end
 
     def require_arguments(required_argements, argements)

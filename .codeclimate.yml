@@ -4,6 +4,6 @@ engines:
     enabled: true
 ratings:
   paths:
-    - powerpoint/**
+    - eki-powerpoint/**
 exclude_paths:
   - spec/**/*

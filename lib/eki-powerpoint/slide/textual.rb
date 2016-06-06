@@ -1,10 +1,10 @@
 require 'fileutils'
 require 'erb'
 
-module Powerpoint
+module EkiPowerpoint
   module Slide
     class Textual
-      include Powerpoint::Util
+      include EkiPowerpoint::Util
       
       attr_reader :title, :content
 

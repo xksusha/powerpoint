@@ -3,10 +3,10 @@ require 'fileutils'
 require 'fastimage'
 require 'erb'
 
-module Powerpoint
+module EkiPowerpoint
   module Slide
     class TextPicSplit
-      include Powerpoint::Util
+      include EkiPowerpoint::Util
 
       attr_reader :title, :content, :image_name, :image_path, :coords
 
@@ -51,6 +51,4 @@ module Powerpoint
       private :save_slide_xml
     end
   end
-
-
 end
