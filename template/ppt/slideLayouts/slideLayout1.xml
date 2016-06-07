@@ -1,237 +1,349 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<p:sldLayout preserve="1" type="title" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
-  <p:cSld name="Title Slide">
-    <p:spTree>
-      <p:nvGrpSpPr>
-        <p:cNvPr id="1" name=""/>
-        <p:cNvGrpSpPr/>
-        <p:nvPr/>
-      </p:nvGrpSpPr>
-      <p:grpSpPr>
-        <a:xfrm>
-          <a:off x="0" y="0"/>
-          <a:ext cx="0" cy="0"/>
-          <a:chOff x="0" y="0"/>
-          <a:chExt cx="0" cy="0"/>
-        </a:xfrm>
-      </p:grpSpPr>
-      <p:sp>
-        <p:nvSpPr>
-          <p:cNvPr id="2" name="Title 1"/>
-          <p:cNvSpPr>
-            <a:spLocks noGrp="1"/>
-          </p:cNvSpPr>
-          <p:nvPr>
-            <p:ph type="ctrTitle"/>
-          </p:nvPr>
-        </p:nvSpPr>
-        <p:spPr>
-          <a:xfrm>
-            <a:off x="685800" y="2130425"/>
-            <a:ext cx="7772400" cy="1470025"/>
-          </a:xfrm>
-        </p:spPr>
-        <p:txBody>
-          <a:bodyPr/>
-          <a:lstStyle/>
-          <a:p>
-            <a:r>
-              <a:rPr lang="en-US" smtClean="0"/>
-              <a:t>Click to edit Master title style</a:t>
-            </a:r>
-            <a:endParaRPr lang="en-US"/>
-          </a:p>
-        </p:txBody>
-      </p:sp>
-      <p:sp>
-        <p:nvSpPr>
-          <p:cNvPr id="3" name="Subtitle 2"/>
-          <p:cNvSpPr>
-            <a:spLocks noGrp="1"/>
-          </p:cNvSpPr>
-          <p:nvPr>
-            <p:ph idx="1" type="subTitle"/>
-          </p:nvPr>
-        </p:nvSpPr>
-        <p:spPr>
-          <a:xfrm>
-            <a:off x="1371600" y="3886200"/>
-            <a:ext cx="6400800" cy="1752600"/>
-          </a:xfrm>
-        </p:spPr>
-        <p:txBody>
-          <a:bodyPr/>
-          <a:lstStyle>
-            <a:lvl1pPr algn="ctr" indent="0" marL="0">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl1pPr>
-            <a:lvl2pPr algn="ctr" indent="0" marL="457200">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl2pPr>
-            <a:lvl3pPr algn="ctr" indent="0" marL="914400">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl3pPr>
-            <a:lvl4pPr algn="ctr" indent="0" marL="1371600">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl4pPr>
-            <a:lvl5pPr algn="ctr" indent="0" marL="1828800">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl5pPr>
-            <a:lvl6pPr algn="ctr" indent="0" marL="2286000">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl6pPr>
-            <a:lvl7pPr algn="ctr" indent="0" marL="2743200">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl7pPr>
-            <a:lvl8pPr algn="ctr" indent="0" marL="3200400">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl8pPr>
-            <a:lvl9pPr algn="ctr" indent="0" marL="3657600">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl9pPr>
-          </a:lstStyle>
-          <a:p>
-            <a:r>
-              <a:rPr lang="en-US" smtClean="0"/>
-              <a:t>Click to edit Master subtitle style</a:t>
-            </a:r>
-            <a:endParaRPr lang="en-US"/>
-          </a:p>
-        </p:txBody>
-      </p:sp>
-      <p:sp>
-        <p:nvSpPr>
-          <p:cNvPr id="4" name="Date Placeholder 3"/>
-          <p:cNvSpPr>
-            <a:spLocks noGrp="1"/>
-          </p:cNvSpPr>
-          <p:nvPr>
-            <p:ph idx="10" sz="half" type="dt"/>
-          </p:nvPr>
-        </p:nvSpPr>
-        <p:spPr/>
-        <p:txBody>
-          <a:bodyPr/>
-          <a:lstStyle/>
-          <a:p>
-            <a:fld id="{1D8BD707-D9CF-40AE-B4C6-C98DA3205C09}" type="datetimeFigureOut">
-              <a:rPr lang="en-US" smtClean="0"/>
-              <a:pPr/>
-              <a:t>7/14/15</a:t>
-            </a:fld>
-            <a:endParaRPr lang="en-US"/>
-          </a:p>
-        </p:txBody>
-      </p:sp>
-      <p:sp>
-        <p:nvSpPr>
-          <p:cNvPr id="5" name="Footer Placeholder 4"/>
-          <p:cNvSpPr>
-            <a:spLocks noGrp="1"/>
-          </p:cNvSpPr>
-          <p:nvPr>
-            <p:ph idx="11" sz="quarter" type="ftr"/>
-          </p:nvPr>
-        </p:nvSpPr>
-        <p:spPr/>
-        <p:txBody>
-          <a:bodyPr/>
-          <a:lstStyle/>
-          <a:p>
-            <a:endParaRPr lang="en-US"/>
-          </a:p>
-        </p:txBody>
-      </p:sp>
-      <p:sp>
-        <p:nvSpPr>
-          <p:cNvPr id="6" name="Slide Number Placeholder 5"/>
-          <p:cNvSpPr>
-            <a:spLocks noGrp="1"/>
-          </p:cNvSpPr>
-          <p:nvPr>
-            <p:ph idx="12" sz="quarter" type="sldNum"/>
-          </p:nvPr>
-        </p:nvSpPr>
-        <p:spPr/>
-        <p:txBody>
-          <a:bodyPr/>
-          <a:lstStyle/>
-          <a:p>
-            <a:fld id="{B6F15528-21DE-4FAA-801E-634DDDAF4B2B}" type="slidenum">
-              <a:rPr lang="en-US" smtClean="0"/>
-              <a:pPr/>
-              <a:t>‹#›</a:t>
-            </a:fld>
-            <a:endParaRPr lang="en-US"/>
-          </a:p>
-        </p:txBody>
-      </p:sp>
-    </p:spTree>
-  </p:cSld>
-  <p:clrMapOvr>
-    <a:masterClrMapping/>
-  </p:clrMapOvr>
+<p:sldLayout preserve="1" showMasterSp="0" userDrawn="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+	<p:cSld name="TITRE">
+		<p:bg>
+			<p:bgPr>
+				<a:solidFill>
+					<a:schemeClr val="tx2"/>
+				</a:solidFill>
+				<a:effectLst/>
+			</p:bgPr>
+		</p:bg>
+		<p:spTree>
+			<p:nvGrpSpPr>
+				<p:cNvPr id="1" name=""/>
+				<p:cNvGrpSpPr/>
+				<p:nvPr/>
+			</p:nvGrpSpPr>
+			<p:grpSpPr>
+				<a:xfrm>
+					<a:off x="0" y="0"/>
+					<a:ext cx="0" cy="0"/>
+					<a:chOff x="0" y="0"/>
+					<a:chExt cx="0" cy="0"/>
+				</a:xfrm>
+			</p:grpSpPr>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="10" name="Titre 9"/>
+					<p:cNvSpPr>
+						<a:spLocks noGrp="1"/>
+					</p:cNvSpPr>
+					<p:nvPr userDrawn="1">
+						<p:ph type="title"/>
+					</p:nvPr>
+				</p:nvSpPr>
+				<p:spPr>
+					<a:xfrm>
+						<a:off x="355600" y="1940022"/>
+						<a:ext cx="8432800" cy="1143000"/>
+					</a:xfrm>
+					<a:prstGeom prst="rect">
+						<a:avLst/>
+					</a:prstGeom>
+				</p:spPr>
+				<p:txBody>
+					<a:bodyPr anchor="b" anchorCtr="0" bIns="0" lIns="0" rIns="0" tIns="0" vert="horz"/>
+					<a:lstStyle>
+						<a:lvl1pPr algn="ctr">
+							<a:defRPr cap="all" sz="4000">
+								<a:solidFill>
+									<a:schemeClr val="bg1"/>
+								</a:solidFill>
+								<a:latin typeface="Century Gothic"/>
+								<a:cs typeface="Century Gothic"/>
+							</a:defRPr>
+						</a:lvl1pPr>
+					</a:lstStyle>
+					<a:p>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Modifiez le style du titre</a:t>
+						</a:r>
+						<a:endParaRPr dirty="0" lang="fr-FR"/>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:cxnSp>
+				<p:nvCxnSpPr>
+					<p:cNvPr id="12" name="Connecteur droit 11"/>
+					<p:cNvCxnSpPr/>
+					<p:nvPr userDrawn="1"/>
+				</p:nvCxnSpPr>
+				<p:spPr>
+					<a:xfrm flipH="1">
+						<a:off x="2923504" y="3411530"/>
+						<a:ext cx="3296993" cy="0"/>
+					</a:xfrm>
+					<a:prstGeom prst="line">
+						<a:avLst/>
+					</a:prstGeom>
+					<a:ln cap="rnd" w="12700">
+						<a:solidFill>
+							<a:schemeClr val="tx1">
+								<a:lumMod val="10000"/>
+								<a:lumOff val="90000"/>
+							</a:schemeClr>
+						</a:solidFill>
+						<a:prstDash val="solid"/>
+					</a:ln>
+				</p:spPr>
+				<p:style>
+					<a:lnRef idx="1">
+						<a:schemeClr val="accent1"/>
+					</a:lnRef>
+					<a:fillRef idx="0">
+						<a:schemeClr val="accent1"/>
+					</a:fillRef>
+					<a:effectRef idx="0">
+						<a:schemeClr val="accent1"/>
+					</a:effectRef>
+					<a:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</a:fontRef>
+				</p:style>
+			</p:cxnSp>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="16" name="Espace réservé du texte 15"/>
+					<p:cNvSpPr>
+						<a:spLocks noGrp="1"/>
+					</p:cNvSpPr>
+					<p:nvPr userDrawn="1">
+						<p:ph idx="10" sz="quarter" type="body"/>
+					</p:nvPr>
+				</p:nvSpPr>
+				<p:spPr>
+					<a:xfrm>
+						<a:off x="361950" y="3677470"/>
+						<a:ext cx="8439150" cy="431800"/>
+					</a:xfrm>
+					<a:prstGeom prst="rect">
+						<a:avLst/>
+					</a:prstGeom>
+				</p:spPr>
+				<p:txBody>
+					<a:bodyPr vert="horz">
+						<a:normAutofit/>
+					</a:bodyPr>
+					<a:lstStyle>
+						<a:lvl1pPr algn="ctr" indent="0" marL="0">
+							<a:buFontTx/>
+							<a:buNone/>
+							<a:defRPr cap="none" sz="1800">
+								<a:solidFill>
+									<a:schemeClr val="bg1"/>
+								</a:solidFill>
+								<a:latin typeface="Arial"/>
+								<a:cs typeface="Arial"/>
+							</a:defRPr>
+						</a:lvl1pPr>
+					</a:lstStyle>
+					<a:p>
+						<a:pPr lvl="0"/>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Modifiez les styles du texte du masque</a:t>
+						</a:r>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="11" name="Parallélogramme 10"/>
+					<p:cNvSpPr>
+						<a:spLocks noChangeAspect="1"/>
+					</p:cNvSpPr>
+					<p:nvPr userDrawn="1"/>
+				</p:nvSpPr>
+				<p:spPr>
+					<a:xfrm>
+						<a:off x="734417" y="-4577"/>
+						<a:ext cx="1440160" cy="1561369"/>
+					</a:xfrm>
+					<a:prstGeom prst="parallelogram">
+						<a:avLst>
+							<a:gd fmla="val 83799" name="adj"/>
+						</a:avLst>
+					</a:prstGeom>
+					<a:solidFill>
+						<a:schemeClr val="accent4"/>
+					</a:solidFill>
+					<a:ln>
+						<a:noFill/>
+					</a:ln>
+				</p:spPr>
+				<p:style>
+					<a:lnRef idx="2">
+						<a:schemeClr val="accent1">
+							<a:shade val="50000"/>
+						</a:schemeClr>
+					</a:lnRef>
+					<a:fillRef idx="1">
+						<a:schemeClr val="accent1"/>
+					</a:fillRef>
+					<a:effectRef idx="0">
+						<a:schemeClr val="accent1"/>
+					</a:effectRef>
+					<a:fontRef idx="minor">
+						<a:schemeClr val="lt1"/>
+					</a:fontRef>
+				</p:style>
+				<p:txBody>
+					<a:bodyPr anchor="ctr" rtlCol="0"/>
+					<a:lstStyle/>
+					<a:p>
+						<a:pPr algn="ctr"/>
+						<a:endParaRPr dirty="0" lang="fr-FR">
+							<a:solidFill>
+								<a:prstClr val="white"/>
+							</a:solidFill>
+							<a:latin charset="0" pitchFamily="34" typeface="Century Gothic"/>
+						</a:endParaRPr>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="14" name="Rectangle 13"/>
+					<p:cNvSpPr/>
+					<p:nvPr userDrawn="1"/>
+				</p:nvSpPr>
+				<p:spPr>
+					<a:xfrm>
+						<a:off x="0" y="6211020"/>
+						<a:ext cx="9144000" cy="646980"/>
+					</a:xfrm>
+					<a:prstGeom prst="rect">
+						<a:avLst/>
+					</a:prstGeom>
+					<a:solidFill>
+						<a:schemeClr val="bg1"/>
+					</a:solidFill>
+					<a:ln>
+						<a:noFill/>
+					</a:ln>
+				</p:spPr>
+				<p:style>
+					<a:lnRef idx="2">
+						<a:schemeClr val="accent1">
+							<a:shade val="50000"/>
+						</a:schemeClr>
+					</a:lnRef>
+					<a:fillRef idx="1">
+						<a:schemeClr val="accent1"/>
+					</a:fillRef>
+					<a:effectRef idx="0">
+						<a:schemeClr val="accent1"/>
+					</a:effectRef>
+					<a:fontRef idx="minor">
+						<a:schemeClr val="lt1"/>
+					</a:fontRef>
+				</p:style>
+				<p:txBody>
+					<a:bodyPr anchor="ctr" rtlCol="0"/>
+					<a:lstStyle/>
+					<a:p>
+						<a:pPr algn="ctr"/>
+						<a:endParaRPr dirty="0" lang="fr-FR">
+							<a:solidFill>
+								<a:prstClr val="white"/>
+							</a:solidFill>
+							<a:latin charset="0" pitchFamily="34" typeface="Century Gothic"/>
+						</a:endParaRPr>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="15" name="Espace réservé de la date 3"/>
+					<p:cNvSpPr>
+						<a:spLocks noGrp="1"/>
+					</p:cNvSpPr>
+					<p:nvPr>
+						<p:ph idx="2" sz="half" type="dt"/>
+					</p:nvPr>
+				</p:nvSpPr>
+				<p:spPr>
+					<a:xfrm>
+						<a:off x="355194" y="6504495"/>
+						<a:ext cx="2133600" cy="217823"/>
+					</a:xfrm>
+					<a:prstGeom prst="rect">
+						<a:avLst/>
+					</a:prstGeom>
+				</p:spPr>
+				<p:txBody>
+					<a:bodyPr anchor="b" anchorCtr="0" bIns="0" lIns="0" rIns="0" tIns="0"/>
+					<a:lstStyle>
+						<a:lvl1pPr algn="ctr">
+							<a:defRPr b="1" sz="800">
+								<a:solidFill>
+									<a:schemeClr val="accent4"/>
+								</a:solidFill>
+								<a:latin typeface="+mj-lt"/>
+							</a:defRPr>
+						</a:lvl1pPr>
+					</a:lstStyle>
+					<a:p>
+						<a:pPr algn="l"/>
+						<a:r>
+							<a:rPr lang="en-US" smtClean="0">
+								<a:solidFill>
+									<a:srgbClr val="E40A38"/>
+								</a:solidFill>
+							</a:rPr>
+							<a:t>INTERNAL</a:t>
+						</a:r>
+						<a:endParaRPr dirty="0" lang="fr-FR">
+							<a:solidFill>
+								<a:srgbClr val="E40A38"/>
+							</a:solidFill>
+						</a:endParaRPr>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:pic>
+				<p:nvPicPr>
+					<p:cNvPr descr="AXA_logo_UK_Q.eps" id="2" name="Image 1"/>
+					<p:cNvPicPr>
+						<a:picLocks noChangeAspect="1"/>
+					</p:cNvPicPr>
+					<p:nvPr userDrawn="1"/>
+				</p:nvPicPr>
+				<p:blipFill>
+					<a:blip r:embed="rId2">
+						<a:extLst>
+							<a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+								<a14:useLocalDpi val="0" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"/>
+							</a:ext>
+						</a:extLst>
+					</a:blip>
+					<a:stretch>
+						<a:fillRect/>
+					</a:stretch>
+				</p:blipFill>
+				<p:spPr>
+					<a:xfrm>
+						<a:off x="6819900" y="6337300"/>
+						<a:ext cx="1980000" cy="400622"/>
+					</a:xfrm>
+					<a:prstGeom prst="rect">
+						<a:avLst/>
+					</a:prstGeom>
+				</p:spPr>
+			</p:pic>
+		</p:spTree>
+		<p:extLst>
+			<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+				<p14:creationId val="2227167372" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+			</p:ext>
+		</p:extLst>
+	</p:cSld>
+	<p:clrMapOvr>
+		<a:masterClrMapping/>
+	</p:clrMapOvr>
+	<p:transition>
+		<p:fade/>
+	</p:transition>
 </p:sldLayout>

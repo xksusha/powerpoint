@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sldLayout type="obj" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+	<p:cSld name="Titre et contenu">
+		<p:spTree>
+			<p:nvGrpSpPr>
+				<p:cNvPr id="1" name=""/>
+				<p:cNvGrpSpPr/>
+				<p:nvPr/>
+			</p:nvGrpSpPr>
+			<p:grpSpPr>
+				<a:xfrm>
+					<a:off x="0" y="0"/>
+					<a:ext cx="0" cy="0"/>
+					<a:chOff x="0" y="0"/>
+					<a:chExt cx="0" cy="0"/>
+				</a:xfrm>
+			</p:grpSpPr>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="2" name="Titre 1"/>
+					<p:cNvSpPr>
+						<a:spLocks noGrp="1"/>
+					</p:cNvSpPr>
+					<p:nvPr>
+						<p:ph type="title"/>
+					</p:nvPr>
+				</p:nvSpPr>
+				<p:spPr/>
+				<p:txBody>
+					<a:bodyPr/>
+					<a:lstStyle/>
+					<a:p>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Modifiez le style du titre</a:t>
+						</a:r>
+						<a:endParaRPr lang="fr-FR"/>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="3" name="Espace réservé du contenu 2"/>
+					<p:cNvSpPr>
+						<a:spLocks noGrp="1"/>
+					</p:cNvSpPr>
+					<p:nvPr>
+						<p:ph idx="1"/>
+					</p:nvPr>
+				</p:nvSpPr>
+				<p:spPr/>
+				<p:txBody>
+					<a:bodyPr/>
+					<a:lstStyle/>
+					<a:p>
+						<a:pPr lvl="0"/>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Modifiez les styles du texte du masque</a:t>
+						</a:r>
+					</a:p>
+					<a:p>
+						<a:pPr lvl="1"/>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Deuxième niveau</a:t>
+						</a:r>
+					</a:p>
+					<a:p>
+						<a:pPr lvl="2"/>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Troisième niveau</a:t>
+						</a:r>
+					</a:p>
+					<a:p>
+						<a:pPr lvl="3"/>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Quatrième niveau</a:t>
+						</a:r>
+					</a:p>
+					<a:p>
+						<a:pPr lvl="4"/>
+						<a:r>
+							<a:rPr lang="fr-FR" smtClean="0"/>
+							<a:t>Cinquième niveau</a:t>
+						</a:r>
+						<a:endParaRPr lang="fr-FR"/>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="4" name="Rectangle 6"/>
+					<p:cNvSpPr>
+						<a:spLocks noChangeArrowheads="1" noGrp="1"/>
+					</p:cNvSpPr>
+					<p:nvPr>
+						<p:ph idx="10" sz="quarter" type="sldNum"/>
+					</p:nvPr>
+				</p:nvSpPr>
+				<p:spPr/>
+				<p:txBody>
+					<a:bodyPr compatLnSpc="1" numCol="1" wrap="square">
+						<a:prstTxWarp prst="textNoShape">
+							<a:avLst/>
+						</a:prstTxWarp>
+					</a:bodyPr>
+					<a:lstStyle>
+						<a:lvl1pPr eaLnBrk="0" fontAlgn="base" hangingPunct="0">
+							<a:spcBef>
+								<a:spcPct val="0"/>
+							</a:spcBef>
+							<a:spcAft>
+								<a:spcPct val="0"/>
+							</a:spcAft>
+							<a:defRPr smtClean="0"/>
+						</a:lvl1pPr>
+					</a:lstStyle>
+					<a:p>
+						<a:pPr>
+							<a:defRPr/>
+						</a:pPr>
+						<a:fld id="{F58B46C0-AA65-49E2-8F94-4FA082B36AA3}" type="slidenum">
+							<a:rPr altLang="fr-FR" lang="fr-FR"/>
+							<a:pPr>
+								<a:defRPr/>
+							</a:pPr>
+							<a:t>‹#›</a:t>
+						</a:fld>
+						<a:endParaRPr altLang="fr-FR" lang="fr-FR"/>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+			<p:sp>
+				<p:nvSpPr>
+					<p:cNvPr id="5" name="Rectangle 5"/>
+					<p:cNvSpPr>
+						<a:spLocks noChangeArrowheads="1" noGrp="1"/>
+					</p:cNvSpPr>
+					<p:nvPr>
+						<p:ph idx="11" sz="quarter" type="ftr"/>
+					</p:nvPr>
+				</p:nvSpPr>
+				<p:spPr/>
+				<p:txBody>
+					<a:bodyPr/>
+					<a:lstStyle>
+						<a:lvl1pPr eaLnBrk="0" fontAlgn="base" hangingPunct="0">
+							<a:spcBef>
+								<a:spcPct val="0"/>
+							</a:spcBef>
+							<a:spcAft>
+								<a:spcPct val="0"/>
+							</a:spcAft>
+							<a:defRPr/>
+						</a:lvl1pPr>
+					</a:lstStyle>
+					<a:p>
+						<a:pPr>
+							<a:defRPr/>
+						</a:pPr>
+						<a:r>
+							<a:rPr lang="fr-FR"/>
+							<a:t>Management Committee - date</a:t>
+						</a:r>
+					</a:p>
+				</p:txBody>
+			</p:sp>
+		</p:spTree>
+		<p:extLst>
+			<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+				<p14:creationId val="2737337509" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+			</p:ext>
+		</p:extLst>
+	</p:cSld>
+	<p:clrMapOvr>
+		<a:masterClrMapping/>
+	</p:clrMapOvr>
+</p:sldLayout>

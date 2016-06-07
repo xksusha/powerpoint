@@ -17,22 +17,29 @@
       </p:grpSpPr>
       <p:sp>
         <p:nvSpPr>
-          <p:cNvPr id="2" name="Title 1"/>
+          <p:cNvPr id="8" name="Titre 7"/>
           <p:cNvSpPr>
             <a:spLocks noGrp="1"/>
           </p:cNvSpPr>
           <p:nvPr>
-            <p:ph type="ctrTitle"/>
+            <p:ph type="title"/>
           </p:nvPr>
         </p:nvSpPr>
-        <p:spPr/>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="323528" y="1988840"/>
+            <a:ext cx="8432800" cy="1143000"/>
+          </a:xfrm>
+        </p:spPr>
         <p:txBody>
-          <a:bodyPr/>
+          <a:bodyPr>
+            <a:normAutofit/>
+          </a:bodyPr>
           <a:lstStyle/>
           <a:p>
             <a:r>
               <a:rPr dirty="0" lang="en-US" smtClean="0"/>
-              <a:t><%= title %></a:t>
+              <a:t><%= title %> </a:t>
             </a:r>
             <a:endParaRPr dirty="0" lang="en-US"/>
           </a:p>
@@ -40,35 +47,132 @@
       </p:sp>
       <p:sp>
         <p:nvSpPr>
-          <p:cNvPr id="3" name="Subtitle 2"/>
+          <p:cNvPr id="4" name="Espace réservé du numéro de diapositive 3"/>
           <p:cNvSpPr>
             <a:spLocks noGrp="1"/>
           </p:cNvSpPr>
           <p:nvPr>
-            <p:ph idx="1" type="subTitle"/>
+            <p:ph idx="4294967295" sz="quarter" type="sldNum"/>
           </p:nvPr>
         </p:nvSpPr>
-        <p:spPr/>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="6508750"/>
+            <a:ext cx="487363" cy="214313"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{3801209A-EBCB-4229-9A21-B7869465F47A}" type="slidenum">
+              <a:rPr lang="fr-FR" smtClean="0">
+                <a:solidFill>
+                  <a:srgbClr val="004563"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:pPr/>
+              <a:t>1</a:t>
+            </a:fld>
+            <a:r>
+              <a:rPr dirty="0" lang="fr-FR" smtClean="0">
+                <a:solidFill>
+                  <a:srgbClr val="004563"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>|  </a:t>
+            </a:r>
+            <a:endParaRPr dirty="0" lang="fr-FR">
+              <a:solidFill>
+                <a:srgbClr val="004563"/>
+              </a:solidFill>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="6" name="Espace réservé de la date 9"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph idx="2" sz="half" type="dt"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3347864" y="6508750"/>
+            <a:ext cx="2133600" cy="217823"/>
+          </a:xfrm>
+        </p:spPr>
         <p:txBody>
           <a:bodyPr/>
           <a:lstStyle/>
           <a:p>
             <a:r>
-              <a:rPr lang="en-US" smtClean="0"/>
+              <a:rPr dirty="0" lang="fr-FR">
+                <a:solidFill>
+                  <a:srgbClr val="E40A38"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t><%= Time.now.day.to_s + ' ' + Date::MONTHNAMES[Date.today.month] + ' ' + Time.now.year.to_s %></a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Espace réservé du texte 7"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph idx="10" sz="quarter" type="body"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="361950" y="3677502"/>
+            <a:ext cx="8439150" cy="791499"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr>
+            <a:normAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr dirty="0" lang="en-US" smtClean="0">
+                <a:latin typeface="+mj-lt"/>
+              </a:rPr>
               <a:t><%= subtitile %></a:t>
             </a:r>
-            <a:endParaRPr lang="en-US"/>
+            <a:endParaRPr dirty="0" lang="en-US">
+              <a:latin typeface="+mj-lt"/>
+            </a:endParaRPr>
           </a:p>
         </p:txBody>
       </p:sp>
     </p:spTree>
     <p:extLst>
       <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
-        <p14:creationId val="1633108117" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+        <p14:creationId val="1171944871" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
       </p:ext>
     </p:extLst>
   </p:cSld>
   <p:clrMapOvr>
     <a:masterClrMapping/>
   </p:clrMapOvr>
+  <p:transition>
+    <p:fade/>
+  </p:transition>
+  <p:timing>
+    <p:tnLst>
+      <p:par>
+        <p:cTn dur="indefinite" id="1" nodeType="tmRoot" restart="never"/>
+      </p:par>
+    </p:tnLst>
+  </p:timing>
 </p:sld>

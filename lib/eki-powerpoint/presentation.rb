@@ -1,6 +1,7 @@
 require 'zip/filesystem'
 require 'fileutils'
 require 'tmpdir'
+require 'date'
 
 module EkiPowerpoint
   class Presentation
