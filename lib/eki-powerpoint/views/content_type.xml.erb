@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
   <Default ContentType="application/xml" Extension="xml"/>
+  <Default ContentType="image/png" Extension="png"/>
+  <Default ContentType="image/gif" Extension="gif"/>
+  <Default ContentType="image/x-emf" Extension="emf"/>
   <Default ContentType="application/vnd.openxmlformats-package.relationships+xml" Extension="rels"/>
-  <% file_types.each do |type| %>
-  <Default ContentType="image/<%= type %>" Extension="<%= type %>"/>
-  <% end %>
   <Override ContentType="application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml" PartName="/ppt/presentation.xml"/>
   <Override ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml" PartName="/ppt/slideMasters/slideMaster1.xml"/>
   <Override ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml" PartName="/ppt/slideMasters/slideMaster2.xml"/>
